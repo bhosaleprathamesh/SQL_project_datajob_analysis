@@ -13,7 +13,7 @@ WITH skills_demand AS(
     GROUP BY
         skills_job_dim.skill_id,
         skills_dim.skills
-), average_salary AS(
+), average_salary AS( 
     SELECT 
         skills_job_dim.skill_id,
         skills_dim.skills,
