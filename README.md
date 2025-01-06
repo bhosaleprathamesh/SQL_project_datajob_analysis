@@ -46,9 +46,9 @@ LIMIT 10;
 ~~~
 
 Here's the breakdown of the top data analyst jobs in India 2023:
-- Salary Trends: The top-paying roles are specialized positions like "Staff Applied Research Engineer" and various "Data Architect" roles, with salaries significantly higher than others. This indicates a strong market demand for expertise in data architecture and applied research, with the highest salary reaching $177,283 annually.
-- Location Specificity: High-salary jobs are predominantly located in urban centers like Hyderabad, Bengaluru, and Gurugram, suggesting these are key hubs for tech and data-related industries in India.
-- Job Role Diversity: Analyst roles tend to offer lower average salaries compared to architect or senior research positions, highlighting the salary disparity based on the level of responsibility, expertise, and perhaps the strategic importance of the role within the company.
+- **Salary Trends:** The top-paying roles are specialized positions like "Staff Applied Research Engineer" and various "Data Architect" roles, with salaries significantly higher than others. This indicates a strong market demand for expertise in data architecture and applied research, with the highest salary reaching $177,283 annually.
+- **Location Specificity:** High-salary jobs are predominantly located in urban centers like Hyderabad, Bengaluru, and Gurugram, suggesting these are key hubs for tech and data-related industries in India.
+- **Job Role Diversity:** Analyst roles tend to offer lower average salaries compared to architect or senior research positions, highlighting the salary disparity based on the level of responsibility, expertise, and perhaps the strategic importance of the role within the company.
 
 
 | Job Title                              | Salary (Yearly Average) |
@@ -97,9 +97,11 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY
     salary_year_avg DESC;
 ~~~
-- SQL and Python are the most common skills: With SQL having the highest count and Python close behind, these skills are crucial in data-related jobs, indicating their importance in technical roles
-- Cloud technologies are in demand: Skills in Azure and AWS reflect a growing emphasis on cloud platforms, which are essential for modern data solutions and scalable infrastructure in businesses.
-- Big Data tools show relevance: Technologies like Spark, Databricks, and Hadoop appear multiple times, highlighting the increasing need for expertise in handling large datasets.
+
+Here's the breakdown:
+- **SQL and Python are the most common skills:** With SQL having the highest count and Python close behind, these skills are crucial in data-related jobs, indicating their importance in technical roles
+- **Cloud technologies are in demand:** Skills in Azure and AWS reflect a growing emphasis on cloud platforms, which are essential for modern data solutions and scalable infrastructure in businesses.
+- **Big Data tools show relevance:** Technologies like Spark, Databricks, and Hadoop appear multiple times, highlighting the increasing need for expertise in handling large datasets.
 
 | Skill        | Count |
 |--------------|-------|
@@ -137,8 +139,8 @@ LIMIT 5;
 ~~~
 Here's the breakdown of the most demanded skills for data analysts in India 2023:
 
-- SQL and Excel remain fundamental, emphasizing the need for strong foundational skills in data processing and spreadsheet manipulation.
-- Programming and Visualization Tools like Python, Tableau, and Power BI are essential, pointing towards the increasing importance of technical skills in data storytelling and decision support.
+- **SQL and Excel** remain fundamental, emphasizing the need for strong foundational skills in data processing and spreadsheet manipulation.
+- Programming and Visualization Tools like **Python, Tableau, and Power BI** are essential, pointing towards the increasing importance of technical skills in data storytelling and decision support.
 
 | Skills    | Demand Count |
 |-----------|--------------|
@@ -147,6 +149,7 @@ Here's the breakdown of the most demanded skills for data analysts in India 2023
 | Excel     | 1718         |
 | Tableau   | 1346         |
 | Power BI  | 1043         |
+
 *Table of the demand for the top 5 skills in data analyst job postings*
 
 ### 4. Skills Based on Salary
@@ -170,9 +173,9 @@ LIMIT 25;
 ~~~
 
 Here’s the analysis based on the top 10 skills with the highest average salaries:
-- High Demand for Infrastructure and Data Engineering Skills: Skills like PySpark, GitLab, PostgreSQL, Linux, and MySQL are all valued at a high average salary, indicating a strong demand for infrastructure, database management, and big data engineering roles.
-- Emerging Skills with Competitive Salaries: Neo4j, GDPR, and Airflow are emerging skills with salaries close to the top-tier skills. This suggests their growing importance in data governance, workflow automation, and managing big data systems.
-- Data-Centric Roles Continue to Drive High Salaries: Tools related to big data processing (such as Spark and Scala) and database management (like PostgreSQL and MongoDB) dominate the list, reflecting the high value of these skills in data-centric and software development roles.
+- **High Demand for Infrastructure and Data Engineering Skills:** Skills like PySpark, GitLab, PostgreSQL, Linux, and MySQL are all valued at a high average salary, indicating a strong demand for infrastructure, database management, and big data engineering roles.
+- **Emerging Skills with Competitive Salaries:** Neo4j, GDPR, and Airflow are emerging skills with salaries close to the top-tier skills. This suggests their growing importance in data governance, workflow automation, and managing big data systems.
+- **Data-Centric Roles Continue to Drive High Salaries:** Tools related to big data processing (such as Spark and Scala) and database management (like PostgreSQL and MongoDB) dominate the list, reflecting the high value of these skills in data-centric and software development roles.
 
 | Skills      | Average Salary ($) |
 |-------------|--------------------|
@@ -239,9 +242,9 @@ ORDER BY
     avg_salary DESC
 ~~~
 Here’s the breakdown: 
-- SQL and Python are in high demand but offer relatively lower salaries compared to other skills in the list. This suggests that these skills are widely used and are fundamental, which could mean more competition for positions.
-- Spark and Power BI stand out with high salaries despite having a moderate demand count. These skills seem to be specialized, which makes them more valuable but less commonly required in the job market.
-- Skills like Tableau, AWS, and Oracle strike a balance between moderate demand and good salaries. These are likely to be in demand for specific roles but might not be as competitive as highly in-demand skills like SQL and Python.
+- **SQL and Python** are in high demand but offer relatively lower salaries compared to other skills in the list. This suggests that these skills are widely used and are fundamental, which could mean more competition for positions.
+- **Spark and Power BI** stand out with high salaries despite having a moderate demand count. These skills seem to be specialized, which makes them more valuable but less commonly required in the job market.
+- Skills like **Tableau, AWS, and Oracle** strike a balance between moderate demand and good salaries. These are likely to be in demand for specific roles but might not be as competitive as highly in-demand skills like **SQL and Python**.
 
 | Skills     | Demand Count | Avg Salary ($) |
 |------------|--------------|----------------|
